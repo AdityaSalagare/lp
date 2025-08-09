@@ -19,5 +19,5 @@ The frontend is a minimalist Tailwind page, and the backend is a small FastAPI s
 ```bash
 pip install -r SnipFeedAI/backend/requirements.txt
 uvicorn SnipFeedAI.backend.app:app --reload
-# open frontend/index.html in a browser
+# then visit http://localhost:8000 in your browser
 ```
